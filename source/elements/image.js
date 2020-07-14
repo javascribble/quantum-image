@@ -1,10 +1,13 @@
-import { Quantum, define } from '../../references/quantum.js';
-import { image } from '../templates/image.js';
+import { Component } from '../../references/quantum.js';
 
-export class Image extends Quantum {
+export class Image extends Component {
     constructor() {
-        super(image);
+        super();
     }
+
+    static template = document.querySelector('#quantum-image');
+
+    static attributes = [];
 }
 
-define(Image);
+customElement.define('quantum-image', Image);

@@ -11,4 +11,4 @@ export class Image extends Component {
     static attributes = [];
 }
 
-customElement.define('quantum-image', Image);
+customElements.define('quantum-image', Image);

@@ -1,1 +1,3 @@
-export * from './elements/image.js';
+import * as image from './elements/image.js';
+
+Object.assign(window, image);

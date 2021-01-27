@@ -1,5 +1,7 @@
 import html from '../templates/image.js';
 
+const { Component, template, define } = quantum;
+
 export class Image extends Component {
     constructor() {
         super();

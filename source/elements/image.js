@@ -1,13 +1,9 @@
 import html from '../templates/image.js';
 
-const { Component, template, define } = quantum;
-
-export class Image extends Component {
+export class Image extends Quantum {
     constructor() {
         super();
     }
-
-    static template = template(html);
 }
 
-define('quantum-image', Image);
+Image.define('quantum-image', html);

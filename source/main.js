@@ -1,3 +1,3 @@
-import * as image from './elements/image.js';
+import { Image } from './elements/image.js';
 
-Object.assign(quantum, image);
+Quantum.Image = Image;

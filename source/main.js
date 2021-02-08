@@ -1,3 +1,1 @@
-import { Image } from './elements/image.js';
-
-Quantum.Image = Image;
+import './elements/image.js';
